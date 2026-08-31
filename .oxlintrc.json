@@ -1,0 +1,63 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["import", "nextjs", "oxc", "react", "typescript", "unicorn"],
+  "jsPlugins": ["./oxlint-plugin/index.js"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2024": true
+  },
+  "categories": {
+    "correctness": "error"
+  },
+  "options": { "typeAware": true },
+  "rules": {
+    "nextjs/google-font-display": "error",
+    "nextjs/google-font-preconnect": "error",
+    "nextjs/inline-script-id": "error",
+    "nextjs/next-script-for-ga": "error",
+    "nextjs/no-assign-module-variable": "error",
+    "nextjs/no-async-client-component": "error",
+    "nextjs/no-before-interactive-script-outside-document": "error",
+    "nextjs/no-css-tags": "error",
+    "nextjs/no-document-import-in-page": "error",
+    "nextjs/no-duplicate-head": "error",
+    "nextjs/no-head-element": "error",
+    "nextjs/no-head-import-in-document": "error",
+    "nextjs/no-html-link-for-pages": "error",
+    "nextjs/no-page-custom-font": "error",
+    "nextjs/no-script-component-in-head": "error",
+    "nextjs/no-styled-jsx-in-document": "error",
+    "nextjs/no-sync-scripts": "error",
+    "nextjs/no-title-in-document-head": "error",
+    "nextjs/no-typos": "error",
+    "nextjs/no-unwanted-polyfillio": "error",
+
+    "oxlint-plugin/padding-around-multiline-statements": "error",
+
+    "react/exhaustive-deps": "error",
+    "react/rules-of-hooks": "error",
+
+    "typescript/no-explicit-any": "warn",
+    "typescript/no-empty-object-type": "warn",
+    "typescript/no-unnecessary-type-assertion": "off",
+    "typescript/no-non-null-assertion": "warn",
+    "typescript/no-dynamic-delete": "warn",
+    "typescript/no-import-type-side-effects": "error",
+    "typescript/ban-ts-comment": "error",
+    "typescript/ban-types": "error",
+    "typescript/no-require-imports": "warn",
+    "typescript/prefer-namespace-keyword": "error",
+    "typescript/triple-slash-reference": "error",
+    "typescript/no-var-requires": "error",
+    "typescript/no-misused-new": "error",
+    "typescript/no-duplicate-enum-values": "error",
+    "typescript/no-extra-non-null-assertion": "error",
+    "typescript/no-non-null-asserted-optional-chain": "warn",
+    "typescript/no-redundant-type-constituents": "warn",
+    "typescript/no-useless-empty-export": "error",
+    "typescript/no-wrapper-object-types": "error",
+    "typescript/prefer-as-const": "error"
+  },
+  "ignorePatterns": ["_bmad/", "_bmad-output", ".claude/", ".hermes/", ".openode/", ".windsurf/"]
+}

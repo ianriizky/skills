@@ -1,0 +1,14 @@
+{
+  "name": "ianriizky-skills",
+  "version": "1.0.0",
+  "description": "Ian Rizky's agent skills for real engineering: testcase generation. Plug-and-play, not vibe coding.",
+  "author": {
+    "name": "Septianata Rizky Pratama",
+    "url": "https://ianrizky.web.id"
+  },
+  "homepage": "https://ianrizky.web.id",
+  "repository": "https://github.com/ianriizky/skills",
+  "license": "MIT",
+  "keywords": ["engineering", "skills", "testcase-generator"],
+  "skills": ["./skills/engineering/testcase-generator"]
+}

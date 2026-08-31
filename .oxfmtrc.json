@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "endOfLine": "lf",
+  "printWidth": 100,
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "sortPackageJson": false,
+  "sortTailwindcss": {},
+  "sortImports": {
+    "order": "asc",
+    "ignoreCase": true,
+    "newlinesBetween": true,
+    "internalPattern": ["@/"],
+    "groups": [
+      "type-import",
+      ["value-builtin", "value-external"],
+      "value-internal",
+      "value-parent",
+      ["value-sibling", "value-index"],
+      "unknown"
+    ]
+  },
+  "ignorePatterns": ["_bmad/", "_bmad-output", ".claude/", ".hermes/", ".openode/", ".windsurf/"]
+}

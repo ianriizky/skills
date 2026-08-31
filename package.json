@@ -1,0 +1,54 @@
+{
+  "name": "@ianriizky/skills",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Skills for the real engineers. Straight from my own .agents directory.",
+  "author": {
+    "name": "Septianata Rizky Pratama",
+    "url": "https://ianrizky.web.id"
+  },
+  "license": "MIT",
+  "engineStrict": true,
+  "engines": {
+    "bun": "^1.4.0"
+  },
+  "packageManager": "bun@1.4.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianriizky/skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ianriizky/skills/issues"
+  },
+  "homepage": "https://github.com/ianriizky/skills#README.md",
+  "keywords": [
+    "TypeScript",
+    "Bun",
+    "BMad",
+    "QA Engineer",
+    "Full Stack Developer",
+    "Software Development Engineer in Test",
+    "Forward Deployer Engineer"
+  ],
+  "scripts": {
+    "lint": "oxlint .",
+    "lint:fix": "bun run lint --fix",
+    "format": "oxfmt .",
+    "format:check": "oxfmt --check .",
+    "changeset": "changeset",
+    "version": "changeset version && bun scripts/sync-plugin-version.mjs",
+    "check-plugin-version": "bun scripts/sync-plugin-version.mjs --check",
+    "postinstall": "lefthook install || true"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^1.0.0",
+    "@changesets/cli": "^3.0.0",
+    "@oxlint/plugins": "^1.80.0",
+    "bun-types": "^1.4.0",
+    "lefthook": "^2.1.12",
+    "oxfmt": "^0.65.0",
+    "oxlint": "^1.80.0",
+    "oxlint-tsgolint": "^7.0.2001",
+    "typescript": "^7.0.2"
+  }
+}

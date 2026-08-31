@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "editorconfig.editorconfig",
+    "github.vscode-github-actions",
+    "ms-azuretools.vscode-containers",
+    "ms-playwright.playwright",
+    "oven.bun-vscode",
+    "oxc.oxc-vscode",
+    "ReprEng.csv",
+    "vitest.explorer",
+    "yzhang.markdown-all-in-one"
+  ]
+}

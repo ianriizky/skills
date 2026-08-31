@@ -1,0 +1,17 @@
+{
+  "name": "ianriizky",
+  "owner": {
+    "name": "Septianata Rizky Pratama",
+    "url": "https://ianrizky.web.id"
+  },
+  "description": "Ian Rizky's skills for real engineering, as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "ianriizky-skills",
+      "source": "./",
+      "description": "Ian Rizky's agent skills for real engineering.",
+      "category": "engineering",
+      "keywords": ["engineering", "skills", "testcase-generator"]
+    }
+  ]
+}

@@ -3,12 +3,7 @@
   "baseBranch": "main",
   "access": "public",
   "format": "auto",
-  "changelog": [
-    "@changesets/changelog-github",
-    {
-      "repo": "ianriizky/skills"
-    }
-  ],
+  "changelog": ["../.agents/skills/changelog/scripts/changelog-custom.mjs", {}],
   "commit": false,
   "ignore": [],
   "fixed": [],

@@ -1,0 +1,4 @@
+ID,Test Scenario,Module/Feature,Precondition,Test Steps,Expected Result,Test Data,Type,Priority,Staging Status,,,Tester,Last Updated,,Production Status,,,Tester,Last Updated,Notes / Bug Ref
+,,,,,,,,,Desktop,Tablet,Mobile,,,,Desktop,Tablet,Mobile,,,
+,,,,,,,,,,,,,,,,,,,,
+{PREFIX}-TC-001,{TEST_SCENARIO},{MODULE_NAME},{PRECONDITION},{TEST_STEPS},{EXPECTED_RESULT},{TEST_DATA},{TYPE},{PRIORITY},,,,,,,,,,,,,
